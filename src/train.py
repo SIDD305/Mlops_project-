@@ -3,8 +3,7 @@ from tensorflow.keras import layers, models
 import matplotlib.pyplot as plt
 from tensorflow.keras.callbacks import EarlyStopping
 import os
-from dataloader import get_train_val   # NEW
-
+from dataloader import get_train_val 
 
 # load datasets
 train_data, val_data = get_train_val()

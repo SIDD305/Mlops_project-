@@ -45,9 +45,4 @@ def get_test():
 
     return test_data
 
-if __name__ == "__main__":
-    print("dataset_path: " ,DATASET_PATH)
-    train_data, val_data = get_train_val()
-
-    print(train_data)
 
