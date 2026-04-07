@@ -20,7 +20,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Train Model
-      run: python train.py
+      run: python src/train.py
 
     - name: Test Model
-      run: python test.py
+      run: python src/test.py
