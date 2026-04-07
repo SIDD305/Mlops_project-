@@ -1,7 +1,7 @@
 name: ECG CI Pipeline
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   train-test:
     runs-on: ubuntu-latest
